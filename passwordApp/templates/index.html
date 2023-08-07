@@ -1,0 +1,41 @@
+{% load static %}
+<!--<!DOCTYPE html>-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+</head>
+<body>
+    <h1 class="main-h1"></h1>
+    <div class="container">
+        <h2 class="generater-h2">This is Password Generator App</h2>
+        <div class="pasword-conatiner">
+            <h4 class="h4">This is Generated Password</h4>
+            <input class="input-passw" type="text" value="{{ password }}" id="myInput">
+
+            <button onclick="buttonCopy()">Copy</button>
+
+
+        </div>
+    </div>
+
+    <script>
+        function buttonCopy() {
+          // Get the text field
+          var copyText = document.getElementById("myInput");
+        
+          // Select the text field
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); // For mobile devices
+        
+          // Copy the text inside the text field
+          navigator.clipboard.writeText(copyText.value);
+        
+          // Alert the copied text
+          // alert("Copied the text: " + copyText.value);
+        }
+        </script>
+</body>
+</html>
