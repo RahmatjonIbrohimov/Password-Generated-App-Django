@@ -23,4 +23,5 @@ python3 manage.py runserver
 terminalga terib natijadan bahra oling. Copy🧾 qilib foydalanavering!
 
 ![Screenshot 2023-08-07 192942](https://github.com/RahmatjonIbrohimov/Password-Generated-App-Django/assets/128359200/6e5860a4-a050-4c38-9295-7113573053c5)
+# 
 ![Screenshot 2023-08-07 195613](https://github.com/RahmatjonIbrohimov/Password-Generated-App-Django/assets/128359200/494100ea-5000-4ca0-a109-062fc8e99c9e)
