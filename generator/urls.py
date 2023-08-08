@@ -20,6 +20,6 @@ from django.urls import path
 from passwordApp import views
 
 urlpatterns = [
-    path('<str:name>', views.passw_generate),
+    path('<str:name>/', views.passw_generate),
     path('admin/', admin.site.urls),
 ]
